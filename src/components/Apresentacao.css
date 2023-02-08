@@ -1,0 +1,9 @@
+#apresentacao{
+    /*se quiser mudar o bg */
+margin-top: 100px;
+}
+.container-apresentacao{
+display: flex;
+box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+
+}

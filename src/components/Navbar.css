@@ -8,13 +8,16 @@
   justify-content: space-between;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
+
+
 }
-/*titulo H1*/
+/*titulo H1 brand*/
 .title h1 {
     margin: 0;
     font-weight: 900;
-    font-size: 3rem;
-    padding: 20px;
+    font-size: 5rem;
+    padding: 40px 0 0 0;
+    cursor: pointer;
 }
 .title span {
     color:#aa1010 ;
@@ -24,6 +27,7 @@
   display: flex;
   list-style-type: none;
   margin-right: 30px;
+  padding-top: 30px;
 }
 .links .link-slide {
   padding: 20px 40px;

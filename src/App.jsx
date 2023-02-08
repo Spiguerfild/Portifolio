@@ -1,14 +1,15 @@
 import "./App.css";
 import Navbar from './components/Navbar.jsx'
-import foto from './img/foto.jpg'
+import Apresentacao from './components/Apresentacao'
+
 
 function App() {
   return (
     <div id="portifolio">
-  
-        <Navbar/>
+  <header><Navbar/></header>
+        
 
-      <main>frase com efeito bunitinho</main>
+      <main><Apresentacao/></main>
 
       <section>
 
