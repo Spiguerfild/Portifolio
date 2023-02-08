@@ -1,5 +1,7 @@
 import "./App.css";
 import Navbar from './components/Navbar.jsx'
+import foto from './img/foto.jpg'
+
 function App() {
   return (
     <div id="portifolio">
@@ -8,7 +10,9 @@ function App() {
 
       <main>frase com efeito bunitinho</main>
 
-      <section></section>
+      <section>
+
+      </section>
 
       <footer>contatos</footer>
     </div>

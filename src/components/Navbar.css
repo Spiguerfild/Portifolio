@@ -1,21 +1,42 @@
-header .nav{
-    height: 10vh;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    padding:  10px 40px;
-    font-size: 2rem;
+
+.navbar-portifolio {
+  display: flex;
+
+  height: 15vh;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
 }
-.nav span{
-    color: rgb(111, 122, 131)
+/*titulo H1*/
+.title h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 20px;
 }
-.links{
-    display: flex;
-    
+.title span {
+    color:#aa1010 ;
 }
-.titulo-brand{
-    text-decoration: none;
+/*links de rolar o scroll automatico */
+.links {
+  display: flex;
+  list-style-type: none;
+  margin-right: 30px;
 }
-.titulo-brand[disabled]:hover{
-    
+.links .link-slide {
+  padding: 20px 40px;
+  text-decoration: none;
+  color: #e2e7eb;
+  font-weight: 600;
+  transition: all .01s;
+  border-bottom: 2px solid transparent;
+font-size: 1.7rem;
+}
+.link-slide:hover{
+    transition: all .5s;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #aa1010;
+  
 }
