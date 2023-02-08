@@ -3,8 +3,19 @@ header .nav{
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    padding:  10px 40px;
+    font-size: 2rem;
+}
+.nav span{
+    color: rgb(111, 122, 131)
 }
 .links{
     display: flex;
-
+    
+}
+.titulo-brand{
+    text-decoration: none;
+}
+.titulo-brand[disabled]:hover{
+    
 }

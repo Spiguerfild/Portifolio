@@ -6,31 +6,29 @@ function Navbar() {
       <header>
         <ul class="nav">
 
-        <div>
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
-        </div>
+          <div>
+           <h1>Portifo<span>l</span>io</h1>
+              
+            
+          </div>
 
           <div className="links">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">
-                Active
+                Home
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Link
+                Projetos
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Link
+                Contato
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
+
           </div>
         </ul>
       </header>
