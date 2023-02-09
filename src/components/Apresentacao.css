@@ -1,9 +1,58 @@
-#apresentacao{
-    /*se quiser mudar o bg */
-margin-top: 100px;
+#apresentacao {
+  /*se quiser mudar o bg */
+  margin-top: 150px;
 }
-.container-apresentacao{
-display: flex;
-box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+.container-apresentacao {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/*TEXTO MANIPULATION*/
+.text-ap{
+  margin: 0 0 120px 0;
+}
+.text-ap h1{
+font-size: 4rem;
 
+}
+.type-anim{
+  position: relative;
+}
+.type-anim::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #910404;
+  width: 2px;
+  height: 100%;
+  animation: blinkCursor 0.8s steps(3) infinite;
+}
+@keyframes blinkCursor {
+  0%,
+  75% {
+    opacity: 1;
+  }
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+.type-anim p{
+  position: relative;
+  color: #910404;
+  letter-spacing: 1px;
+  font-size:2rem;
+}
+/*FOTO MANIPULATION*/
+.div-foto-ap {
+  margin: 0 50px 0 0;
+}
+.foto-ap {
+  padding: 2px;
+  background: linear-gradient(560deg, #15151dc9, #1a191da9);
+  border-radius: 50%;
+  border: 8px double #5f0202;
+  filter: blur(0.2px);
 }

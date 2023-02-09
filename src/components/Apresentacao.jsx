@@ -1,13 +1,19 @@
 import "./Apresentacao.css";
-import bg from "../img/teste.jpg";
+import foto from "../img/foto-perfil.png";
 function Apresentacao() {
   return (
     <div id="apresentacao">
-
       <div className="container-apresentacao">
-        <div className="">a</div>
+        <div className="text-ap">
+          <h1>Hi, i'm Luis Henrique</h1>
+          <div className="type-anim">
+            <p>Front-end Developer</p>
+          </div>
+        </div>
 
-        <div></div>
+        <div className="div-foto-ap">
+          <img className="foto-ap" src={foto} alt="" width={400} />
+        </div>
       </div>
     </div>
   );

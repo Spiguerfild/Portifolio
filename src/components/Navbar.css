@@ -2,7 +2,6 @@
 .navbar-portifolio {
   display: flex;
 
-  height: 15vh;
   align-items: center;
   width: 100%;
   justify-content: space-between;
@@ -13,14 +12,14 @@
 }
 /*titulo H1 brand*/
 .title h1 {
-    margin: 0;
+    margin: 0 0 0 10px;
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 40px 0 0 0;
     cursor: pointer;
 }
 .title span {
-    color:#aa1010 ;
+    color:#910404 ;
 }
 /*links de rolar o scroll automatico */
 .links {
@@ -32,7 +31,7 @@
 .links .link-slide {
   padding: 20px 40px;
   text-decoration: none;
-  color: #e2e7eb;
+  color: #ececec;
   font-weight: 600;
   transition: all .01s;
   border-bottom: 2px solid transparent;
@@ -41,6 +40,19 @@ font-size: 1.7rem;
 .link-slide:hover{
     transition: all .5s;
     border-bottom: 1px solid rgb(255, 255, 255);
-    color: #aa1010;
+    color: #910404;
   
+}
+@media(max-width:1040px){
+  .navbar-portifolio{
+    flex-direction: column;
+  }
+  .links{
+    flex-direction: column;
+    align-items: center;
+  }
+.links .link-slide{
+    margin: 10px 0;
+    padding: 0 1px;
+  }
 }
