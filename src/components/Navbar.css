@@ -2,10 +2,10 @@
 .navbar-portifolio {
   display: flex;
 
-  align-items: center;
+  align-items: baseline;
   width: 100%;
   justify-content: space-between;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
 
 
@@ -14,7 +14,7 @@
 .title h1 {
     margin: 0 0 0 10px;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 40px 0 0 0;
     cursor: pointer;
 }
@@ -35,11 +35,11 @@
   font-weight: 600;
   transition: all .01s;
   border-bottom: 2px solid transparent;
-font-size: 1.7rem;
+font-size: 1.4rem;
 }
 .link-slide:hover{
     transition: all .5s;
-    border-bottom: 1px solid rgb(255, 255, 255);
+   /* border-bottom: 1px solid rgb(255, 255, 255);*/
     color: #910404;
   
 }

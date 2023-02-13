@@ -18,17 +18,16 @@ function Navbar() {
           </li>
           <li>
             <a className="link-slide" href="#">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a className="link-slide" href="#">
               History
             </a>
           </li>
           <li>
             <a className="link-slide" href="#">
-             
+              Projects
+            </a>
+          </li>
+          <li>
+            <a className="link-slide" href="#">
               Contactme
             </a>
           </li>

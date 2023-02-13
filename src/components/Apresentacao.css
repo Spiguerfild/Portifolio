@@ -9,42 +9,54 @@
   align-items: center;
 }
 /*TEXTO MANIPULATION*/
-.text-ap{
+.text-ap {
   margin: 0 0 120px 0;
+  /*border-left: 1px solid #ff7b00;*/
+  
 }
-.text-ap h1{
-font-size: 4rem;
+.text-ap h1 {
+  font-size: 4rem;
+  position: relative;
+  left: -3px;
+}
+/*TYPE ANIMATION*/
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  color: #5f0202;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
 
+  letter-spacing: 7px;
 }
-.type-anim{
-  position: relative;
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 5.6s steps(19) 1s 1 normal both,
+    blinkTextCursor 300ms steps(300) infinite normal;
 }
-.type-anim::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #910404;
-  width: 2px;
-  height: 100%;
-  animation: blinkCursor 0.8s steps(3) infinite;
-}
-@keyframes blinkCursor {
-  0%,
-  75% {
-    opacity: 1;
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  76%,
-  100% {
-    opacity: 0;
+  to {
+    width: 394px;
+  }
+  
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #ff7b00;
+  }
+  to {
+    border-right-color: transparent;
   }
 }
-.type-anim p{
-  position: relative;
-  color: #910404;
-  letter-spacing: 1px;
-  font-size:2rem;
-}
+
 /*FOTO MANIPULATION*/
 .div-foto-ap {
   margin: 0 50px 0 0;
@@ -55,32 +67,4 @@ font-size: 4rem;
   border-radius: 50%;
   border: 8px double #5f0202;
   filter: blur(0.2px);
-}
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-   color: #5f0202;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-     
-    letter-spacing: 7px;
-}
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 5s steps(19) 1s 1 normal both,
-             blinkTextCursor 300ms steps(300) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width:396px;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgb(250, 92, 0);}
-  to{border-right-color: transparent;}
 }

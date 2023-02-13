@@ -1,5 +1,7 @@
 import "./Apresentacao.css";
 import foto from "../img/foto-perfil.png";
+
+
 function Apresentacao() {
   return (
     <div id="apresentacao">
@@ -12,9 +14,10 @@ function Apresentacao() {
         </div>
 
         <div className="div-foto-ap">
-          <img className="foto-ap" src={foto} alt="" width={400} />
+          <img className="foto-ap" src={foto} alt="" width={350} />
         </div>
       </div>
+  
     </div>
   );
 }
