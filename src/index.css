@@ -6,7 +6,7 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(to top, #17141a,rgb(26, 7, 7));
+  background: linear-gradient(to top, #17141a,rgb(26, 7, 7)) no-repeat;
   overflow-x: hidden;
 }
 

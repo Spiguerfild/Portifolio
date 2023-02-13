@@ -1,21 +1,21 @@
 import "./App.css";
-import Navbar from './components/Navbar.jsx'
-import Apresentacao from './components/Apresentacao'
-
+import Navbar from "./components/Navbar.jsx";
+import Apresentacao from "./components/Apresentacao";
 
 function App() {
   return (
     <div id="portifolio">
-  <header><Navbar/></header>
-        
+      <header>
+        <Navbar />
+      </header>
 
-      <main><Apresentacao/></main>
+      <main>
+        <Apresentacao />
 
-      <section>
+        <section></section>
+      </main>
 
-      </section>
-
-      <footer>contatos</footer>
+      <footer></footer>
     </div>
   );
 }

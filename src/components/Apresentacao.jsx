@@ -9,7 +9,7 @@ function Apresentacao() {
         <div className="text-ap">
           <h1>Hi, i'm Luis Henrique</h1>
         
-            <p class="line-1 anim-typewriter">Front-end Developer </p>
+            <p class="line-1 anim-typewriter">Front-end <span>Dev</span>eloper.</p>
        
         </div>
 

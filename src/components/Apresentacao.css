@@ -7,12 +7,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0 0 70px 0;
 }
 /*TEXTO MANIPULATION*/
 .text-ap {
-  margin: 0 0 120px 0;
-  /*border-left: 1px solid #ff7b00;*/
-  
+  margin: 0 0 15px 0;
+  padding: 0 0 118px 0;
+  border-bottom: 2px solid #ff7b00;
 }
 .text-ap h1 {
   font-size: 4rem;
@@ -31,20 +33,28 @@
   white-space: nowrap;
   overflow: hidden;
 
-  letter-spacing: 7px;
+  letter-spacing: 10px;
 }
 
 /* Animation */
 .anim-typewriter {
-  animation: typewriter 5.6s steps(19) 1s 1 normal both,
-    blinkTextCursor 300ms steps(300) infinite normal;
+  text-align: inherit;
+  text-shadow: 0px 0px 3px #5f0202,
+ 0px 0px 5px #5f0202;
+  animation: typewriter 5s steps(20) 1s 1 normal both,
+    blinkTextCursor 250ms steps(300) infinite normal;
+}
+
+.anim-typewriter span{
+  text-shadow: 0px 0px 3px #ffffff;
 }
 @keyframes typewriter {
   from {
     width: 0;
   }
   to {
-    width: 394px;
+    width: 470px;
+  
   }
   
 }
@@ -60,6 +70,7 @@
 /*FOTO MANIPULATION*/
 .div-foto-ap {
   margin: 0 50px 0 0;
+
 }
 .foto-ap {
   padding: 2px;
@@ -67,4 +78,7 @@
   border-radius: 50%;
   border: 8px double #5f0202;
   filter: blur(0.2px);
+  box-shadow: 0px 0px 3px #5f0202,
+  0px 0px 5px #5f0202;
+ 
 }
