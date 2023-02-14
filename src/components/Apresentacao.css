@@ -14,7 +14,7 @@
 .text-ap {
   margin: 0 0 15px 0;
   padding: 0 0 118px 0;
-  border-bottom: 2px solid #ff7b00;
+  border-bottom: 2px solid #f6781f;
 }
 .text-ap h1 {
   font-size: 4rem;
@@ -26,7 +26,7 @@
   position: relative;
   top: 50%;
   width: 24em;
-  color: #5f0202;
+  color: #8f0000;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 180%;
   text-align: center;
@@ -76,9 +76,7 @@
   padding: 2px;
   background: linear-gradient(560deg, #15151dc9, #1a191da9);
   border-radius: 50%;
-  border: 8px double #5f0202;
+  border: 8px double #600009c9;
   filter: blur(0.2px);
-  box-shadow: 0px 0px 3px #5f0202,
-  0px 0px 5px #5f0202;
- 
+  box-shadow: 0px 0px 30px #5a0000, 0px 0px 50px #520000;
 }

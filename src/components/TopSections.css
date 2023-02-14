@@ -1,0 +1,14 @@
+#top-sections{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 100px 0 70px 0;
+}
+#top-sections h1{
+  font-size: 3.5rem;
+    border-bottom: 4px solid #f6781f;
+  text-shadow: 0 0 30px #fff;
+   
+}
