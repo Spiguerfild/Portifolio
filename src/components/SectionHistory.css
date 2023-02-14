@@ -1,29 +1,36 @@
 #section-history-container {
-    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
-    padding: 100px 0 70px 0;
+   
+  padding: 100px 0 70px 0;
 }
-
-.history {
-    padding: 20px 190px;
-    text-align: justify;
-}
-
-.history p {
-    font-size: 1.3rem;
-    margin-bottom: 30px;
-}
-
 .content-general-history {
-
     display: flex;
-    gap: 200px;
+    gap: 150px;
     justify-content: center;
     align-items: center;
+    padding: 0 0 150px 0;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
+
+.history {
+  padding: 20px 50px 0 20px;
+  text-align: justify;
+}
+.history span{
+  color: #850000;
+  text-shadow: 0px 0px 3px #5f0202;
+
+}
+.history p {
+    font-family: sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-weight: 700;
 }
 
-.foto-png {
 
-    filter: invert(1);
-    position: relative;
-    right: -10%;
+
+.foto-png {
+  filter: invert(1);
+  position: relative;
+  right: -5%;
 }

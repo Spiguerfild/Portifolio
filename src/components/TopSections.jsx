@@ -1,14 +1,13 @@
-import './TopSections.css'
+import "./TopSections.css";
 
-function TopSections({title}) {
-    return (
-      <div id="top-sections">
-   
-<h1>{title}</h1>
-
+function TopSections({ title }) {
+  return (
+    <div id="top-sections">
+      <div className="line">
+        <h1>{title}</h1>
       </div>
-    );
-  }
-  
-  export default TopSections;
-  
+    </div>
+  );
+}
+
+export default TopSections;
