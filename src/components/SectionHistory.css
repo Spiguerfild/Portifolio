@@ -1,12 +1,29 @@
-#section-history-container{
+#section-history-container {
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
     padding: 100px 0 70px 0;
 }
-.history{
-    padding: 20px 220px;
+
+.history {
+    padding: 20px 190px;
     text-align: justify;
 }
-.history p{
-    font-size: 1.4rem;
-    margin-bottom: 5px;
+
+.history p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.content-general-history {
+
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-png {
+
+    filter: invert(1);
+    position: relative;
+    right: -10%;
 }
