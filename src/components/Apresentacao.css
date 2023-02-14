@@ -1,6 +1,6 @@
 #apresentacao {
   /*se quiser mudar o bg */
-  margin-top: 150px;
+  margin-top: 200px;
 }
 .container-apresentacao {
   width: 100vw;
@@ -8,7 +8,7 @@
   justify-content: space-around;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 0 0 70px 0;
+  padding: 0 0 150px 0;
 }
 /*TEXTO MANIPULATION*/
 .text-ap {
@@ -53,7 +53,7 @@
     width: 0;
   }
   to {
-    width: 470px;
+    width: 472px;
   
   }
   

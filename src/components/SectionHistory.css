@@ -1,0 +1,12 @@
+#section-history-container{
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 100px 0 70px 0;
+}
+.history{
+    padding: 20px 220px;
+    text-align: justify;
+}
+.history p{
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
