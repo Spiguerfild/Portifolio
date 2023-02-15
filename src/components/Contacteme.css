@@ -1,0 +1,24 @@
+.container-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.chave{
+    border: 2px solid #520000;
+}
+.chave h1{
+    font-size: 30rem;
+    font-weight: 100;
+    color: #520000;
+
+}
+.center{
+    padding: 200px 0 0 0;
+}
+.infos{
+    text-align: center;
+}
+.content{
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px 0 0 0;
+}

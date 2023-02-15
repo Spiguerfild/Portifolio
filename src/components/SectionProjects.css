@@ -1,6 +1,4 @@
-::-webkit-progress-inner-element {
-  --my-img_1: url("");
-}
+
 .container-projects {
   display: flex;
   justify-content: space-evenly;
