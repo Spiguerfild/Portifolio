@@ -2,20 +2,31 @@
     display: flex;
     justify-content: space-between;
 }
-.chave{
-    border: 2px solid #520000;
-}
+
 .chave h1{
-    font-size: 30rem;
+    font-size: 15rem;
     font-weight: 100;
     color: #520000;
-
+text-shadow: 1px 1px 5px black;
 }
 .center{
     padding: 200px 0 0 0;
 }
+.center a{
+    color: #910404;
+ 
+ 
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  align-items: center;
+ 
+  padding: 0;
+}
 .infos{
     text-align: center;
+    display: flex;
 }
 .content{
     text-align: center;
