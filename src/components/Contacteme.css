@@ -1,6 +1,6 @@
 .container-contact{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .chave h1{
@@ -10,12 +10,12 @@
 text-shadow: 1px 1px 5px black;
 }
 .center{
-    padding: 200px 0 0 0;
+    padding: 100px 0 0 0;
+    width: 100%;
+    text-align: center;
 }
 .center a{
     color: #910404;
- 
- 
   font-size: 1.1rem;
   text-align: center;
   text-decoration: none;
@@ -27,6 +27,12 @@ text-shadow: 1px 1px 5px black;
 .infos{
     text-align: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.infos h3{
+
 }
 .content{
     text-align: center;
