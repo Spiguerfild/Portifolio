@@ -48,7 +48,7 @@ function SectionProjects() {
           <a href="https://www.linkedin.com/posts/luis-henrique-spiga_projeto-pesquisador-de-cep-utilizei-s%C3%B3-activity-7023872375658037248-yowQ?utm_source=share&utm_medium=member_desktop">
             <img className="icon-prj" src={lin_img} /> Linkedin
           </a>
-          <h3>Busca CEP</h3>
+          <h3>Search CEP</h3>
         </div>
       </div>
       <div className="container-projects">

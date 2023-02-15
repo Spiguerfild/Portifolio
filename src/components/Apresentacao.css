@@ -8,7 +8,7 @@
   justify-content: space-around;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 0 0 150px 0;
+  padding: 70px 0 170px 0;
 }
 /*TEXTO MANIPULATION*/
 .text-ap {
@@ -20,6 +20,7 @@
   font-size: 4.4rem;
   position: relative;
   left: -3px;
+  color: #ececec;
 }
 /*TYPE ANIMATION*/
 .line-1 {
