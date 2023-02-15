@@ -8,7 +8,7 @@ function Contactme() {
         <div id="contact-me">
             <TopSections title={"Contactme"} />
             <div className='container-contact'>
-                <div className='chave'><h1>{txt1}</h1></div>
+                <div className='chave c1'><h1>{txt1}</h1></div>
                 <div className='center'>
 
                     <div className='infos'>

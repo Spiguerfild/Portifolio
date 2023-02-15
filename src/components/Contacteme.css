@@ -1,6 +1,6 @@
 .container-contact{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .chave h1{
@@ -11,8 +11,12 @@ text-shadow: 1px 1px 5px black;
 }
 .center{
     padding: 100px 0 0 0;
-    width: 100%;
+    width: 40%;
     text-align: center;
+}
+.c1{
+    position: relative;
+    right: 5px;
 }
 .center a{
     color: #910404;
