@@ -7,7 +7,8 @@
     font-size: 15rem;
     font-weight: 100;
     color: #520000;
-text-shadow: 1px 1px 5px black;
+text-shadow: 2px 2px 1px black,
+ 1px 3px 18px #ca5400;
 }
 .center{
     padding: 100px 0 0 0;
