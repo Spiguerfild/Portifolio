@@ -4,10 +4,14 @@
   box-sizing: border-box;
   color:#ececec;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
  
     background: linear-gradient(180deg, #17141a,#220707) no-repeat;
   overflow-x: hidden;
+
 }
 
 

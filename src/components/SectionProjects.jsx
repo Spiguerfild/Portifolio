@@ -3,8 +3,11 @@ import TopSections from "./TopSections.jsx";
 import img_1 from "../img/projetos_cadastro_basico.png";
 import img_2 from "../img/projetos_pokedex.png";
 import img_3 from "../img/projetos_buscar_cep.png";
+import img_4 from "../img/site_magic.png"
 import git_img from "../img/github.png";
 import lin_img from "../img/linkedin.png";
+
+
 function SectionProjects() {
   return (
     <div id="section-projects">
@@ -50,10 +53,21 @@ function SectionProjects() {
           </a>
           <h3>Search CEP</h3>
         </div>
+
       </div>
       <div className="container-projects">
-        <div className="card-project"></div>
+        <div className="card-project">
+          <img src={img_4} alt="" width={254} />
+          <a href="https://github.com/Spiguerfild/projeto-site-magic" target="_blank">
+            <img className="icon-prj" src={git_img} alt="" /> GitLink
+          </a>
+          <a href="#">
+            <img className="icon-prj" src={lin_img} /> Linkedin
+          </a>
+          <h3>Clone Page</h3>
+        </div>
       </div>
+
     </div>
   );
 }

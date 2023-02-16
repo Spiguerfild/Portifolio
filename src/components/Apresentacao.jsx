@@ -1,10 +1,12 @@
 import "./Apresentacao.css";
+import TopSections from './TopSections';
 import foto from "../img/foto-perfil.png";
 
 
 function Apresentacao() {
   return (
     <div id="apresentacao">
+      <TopSections title={"Home"} />
       <div className="container-apresentacao">
         <div className="text-ap">
           <h1>Hi, i'm Luis Henrique</h1>

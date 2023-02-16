@@ -11,14 +11,16 @@ function Contactme() {
                 <div className='chave c1'><h1>{txt1}</h1></div>
                 <div className='center'>
 
+
+                <div className='infos'>
+                        <h3>E-mail: </h3>
+                       <p>luique16@outlook.com</p>
+                    </div>
                     <div className='infos'>
                         <h3>Whatsapp: </h3>
                         <a href='https://api.whatsapp.com/send/?phone=44984342957&text&type=phone_number&app_absent=0' target="_blank" className='content'>Send me a message</a>
                     </div>
-                    <div className='infos'>
-                        <h3>E-mail: luique16@outlook.com</h3>
-                       
-                    </div>
+                  
 
                 </div>
                 <div className='chave'><h1>{txt2}</h1></div>
