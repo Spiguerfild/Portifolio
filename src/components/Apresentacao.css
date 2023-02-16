@@ -1,6 +1,5 @@
 #apresentacao {
   /*se quiser mudar o bg */
-
 }
 .container-apresentacao {
   width: 100vw;
@@ -40,13 +39,12 @@
 /* Animation */
 .anim-typewriter {
   text-align: inherit;
-  text-shadow: 0px 0px 3px #5f0202,
- 0px 0px 5px #5f0202;
+  text-shadow: 0px 0px 3px #5f0202, 0px 0px 5px #5f0202;
   animation: typewriter 5s steps(20) 1s 1 normal both,
     blinkTextCursor 250ms steps(300) infinite normal;
 }
 
-.anim-typewriter span{
+.anim-typewriter span {
   text-shadow: 0px 0px 3px #ffffff;
 }
 @keyframes typewriter {
@@ -55,9 +53,7 @@
   }
   to {
     width: 472px;
-  
   }
-  
 }
 @keyframes blinkTextCursor {
   from {
@@ -71,13 +67,102 @@
 /*FOTO MANIPULATION*/
 .div-foto-ap {
   margin: 0 50px 0 0;
-
 }
 .foto-ap {
+  width: 350px;
   padding: 2px;
   background: linear-gradient(560deg, #15151dc9, #1a191da9);
   border-radius: 50%;
   border: 8px double #600009c9;
   filter: blur(0.2px);
   box-shadow: 0px 0px 30px #5a0000, 0px 0px 50px #520000;
+}
+/*RESPONSIVE PART ----------------apresentacao-----------------------------------------------*/
+@media (max-width: 1150px) {
+  .foto-ap {
+    width: 230px;
+  }
+}
+@media (max-width: 950px) {
+  .foto-ap {
+    width: 180px;
+  }
+
+  .text-ap h1 {
+  font-size: 2rem;
+  }
+
+  .line-1{
+    font-size: 1rem;
+    letter-spacing: 4px;
+    width:10em ;
+
+  }
+  .anim-typewriter {
+    animation: typewriter-min 5s steps(20) 1s 1 normal both,
+    blinkTextCursor 250ms steps(300) infinite normal;
+  }
+  
+}
+@keyframes typewriter-min {
+  from {
+    width: 0;
+  }
+  to {
+    width: 230px;
+  }
+}
+
+@media(max-width: 540px){
+  .container-apresentacao{
+    padding: 30px 0 120px 0;
+  }
+  .foto-ap {
+    width: 80px;
+  }
+  .text-ap{
+    padding: 0;
+  }
+  .text-ap h1 {
+    font-size: 1.3rem;
+}
+.line-1{
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.anim-typewriter {
+  animation: typewriter-min_min 5s steps(20) 1s 1 normal both,
+  blinkTextCursor 250ms steps(300) infinite normal;
+}
+}
+@keyframes typewriter-min_min {
+  from {
+    width: 0;
+  }
+  to {
+    width: 147px;
+  }
+}
+@media(max-width: 330px){
+  
+  
+  .text-ap h1 {
+    font-size: .9rem;
+}
+.line-1{
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+.anim-typewriter {
+  animation: typewriter-min_min-300 5s steps(20) 1s 1 normal both,
+  blinkTextCursor 250ms steps(300) infinite normal;
+}
+}
+@keyframes typewriter-min_min-300 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 109px;
+  }
 }

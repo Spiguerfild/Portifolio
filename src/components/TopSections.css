@@ -23,3 +23,21 @@ text-shadow: 0px 0px 3px #c25100, 0px 0px 5px #f6781f;
   padding-bottom: 100px;
   border-radius: 30px;
 }
+/*RESPONSIVE PART ---------------------------------------------------------------*/
+@media (max-width: 950px) {
+  #top-sections{
+    margin: 10px 0 0 0;
+  }
+}
+@media(max-width: 750px){
+.line{
+  border-bottom: 3px solid transparent;
+  padding-bottom: 30px;
+}
+}
+@media(max-width: 540px){
+  #top-sections h1 {
+    font-size: 2rem;
+  }
+  
+}

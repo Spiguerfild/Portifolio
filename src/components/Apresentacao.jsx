@@ -16,7 +16,7 @@ function Apresentacao() {
         </div>
 
         <div className="div-foto-ap">
-          <img className="foto-ap" src={foto} alt="" width={350} />
+          <img className="foto-ap" src={foto} alt="" />
         </div>
       </div>
   
