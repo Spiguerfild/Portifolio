@@ -1,6 +1,6 @@
-#apresentacao {
-  /*se quiser mudar o bg */
-}
+/*#apresentacao {
+  se quiser mudar o bg 
+}*/
 .container-apresentacao {
   width: 100vw;
   display: flex;
@@ -145,9 +145,8 @@
 }
 @media(max-width: 330px){
   
-  
   .text-ap h1 {
-    font-size: .9rem;
+    font-size: .8rem;
 }
 .line-1{
   font-size: 9px;

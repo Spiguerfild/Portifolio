@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 0 150px 0;
-    
+    margin-top: 20px;
   }
 
 .history {
@@ -33,4 +33,37 @@
   filter: invert(1);
   position: relative;
   right: -5%;
+}
+/*RESPONSIVE PART ----------------History-----------------------------------------------*/
+@media(max-width: 1050px){
+  .history p{
+    font-size: .9rem;
+  }
+}
+@media(max-width: 900px){
+  .history p{
+    font-size: .7rem;
+  }
+  .foto-png img{
+    width: 150px;
+  }
+  .content-general-history{
+    gap: 70px;
+  }
+}
+@media(max-width: 600px){
+  .history p{
+    font-size: 13px;
+  }
+  .content-general-history{
+    gap: 30px;
+  }
+  .foto-png img{
+    width: 0px;
+  }
+}
+@media(max-width: 400px){
+  .history p{
+    font-size: 8px;
+  }
 }
