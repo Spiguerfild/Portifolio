@@ -10,7 +10,6 @@
 .card-project {
  
   width: 23%;
-
   background: rgba(0, 0, 0, 0.274);
   border-bottom: 2px solid #910404;
   border-radius: 5px;
@@ -60,26 +59,26 @@
 }
 .card-project:hover {
   width: 30%;
-  height: 22em;
+  height: 30rem
 }
 .card-project img {
-  transition: 0.5s;
+  transition: 0.4s;
   width: 100%;
 }
 .card-project:hover img {
   width: 100%;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 /*icone do link*/
 .card-project a .icon-prj{
-  width: 14%;
-  height: 81%;
+  width: 23%;
+    height: 91%;
 
 transition: none;
 }
 .card-project a:hover .icon-prj{
   filter: invert(1);
-  transition: .5s;
+  transition: .4s;
 }
 @media(max-width: 860px){
   .card-project h3{
@@ -92,4 +91,15 @@ transition: none;
     width: 30%;
     height: 15em;
   }
+}
+@media(max-width: 650px){
+  .card-project:hover {
+    width: 30%;
+    height: 10rem
+  }
+}
+@media(max-width: 500px) {
+  .card-project h3{
+    font-size:.6rem ;  
+    }
 }
