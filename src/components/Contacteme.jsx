@@ -18,11 +18,11 @@ function Contactme() {
                     </div>
                     <div className='infos'>
                         <h3>Github: </h3>
-                        <a href='https://github.com/Spiguerfild' target="_blank" className='content'>Check my profile</a>
+                        <a href='https://github.com/Spiguerfild' target="_blank" className='content'>My Profile</a>
                     </div>
                     <div className='infos'>
                         <h3>LinkedIn: </h3>
-                        <a href='https://www.linkedin.com/in/luis-henrique-spiga/' target="_blank" className='content'>Check my profile</a>
+                        <a href='https://www.linkedin.com/in/luis-henrique-spiga/' target="_blank" className='content'>My Profile</a>
                     </div>
                     <div className='infos'>
                         <h3>Whatsapp: </h3>

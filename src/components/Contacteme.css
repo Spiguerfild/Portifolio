@@ -103,7 +103,18 @@
   }
 }
 @media (max-width: 810px) {
-  .chave h1 {
-    font-size: 0;
+  .infos p , .infos a {
+    font-size: 0.9rem;
+  }
+  .infos h3{
+    font-size:  1.3rem; 
+  }
+}
+@media (max-width: 540px) {
+  .infos p , .infos a {
+    font-size: 0.56rem;
+  }
+  .infos h3{
+    font-size:  .9rem; 
   }
 }

@@ -48,7 +48,7 @@ function SectionProjects() {
           <a href="https://github.com/Spiguerfild/buscador-CEP-REACT" target="_blank">
             <img className="icon-prj" src={git_img} alt="" /> GitLink
           </a>
-          <a href="https://www.linkedin.com/posts/luis-henrique-spiga_projeto-pesquisador-de-cep-utilizei-s%C3%B3-activity-7023872375658037248-yowQ?utm_source=share&utm_medium=member_desktop">
+          <a target="_blank" href="https://www.linkedin.com/posts/luis-henrique-spiga_projeto-pesquisador-de-cep-utilizei-s%C3%B3-activity-7023872375658037248-yowQ?utm_source=share&utm_medium=member_desktop">
             <img className="icon-prj" src={lin_img} /> Linkedin
           </a>
           <h3>Search CEP</h3>
@@ -61,7 +61,7 @@ function SectionProjects() {
           <a href="https://github.com/Spiguerfild/projeto-site-magic" target="_blank">
             <img className="icon-prj" src={git_img} alt="" /> GitLink
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/posts/luis-henrique-spiga_bom-dia-segue-mais-um-projeto-um-clone-activity-7032348278629240833-lMSb?utm_source=share&utm_medium=member_desktop">
             <img className="icon-prj" src={lin_img} /> Linkedin
           </a>
           <h3>Clone Page</h3>
