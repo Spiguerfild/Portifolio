@@ -38,12 +38,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+ 
 }
 
 /*efeitos*/
 .card-project:hover a {
   visibility: visible;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 .card-project a:hover {
   background-color: #580000;
