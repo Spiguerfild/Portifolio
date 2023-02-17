@@ -40,7 +40,7 @@
 .anim-typewriter {
   text-align: inherit;
   text-shadow: 0px 0px 3px #5f0202, 0px 0px 5px #5f0202;
-  animation: typewriter 5s steps(20) 1s 1 normal both,
+  animation: typewriter 3s steps(20) 1s 1 normal both,
     blinkTextCursor 250ms steps(300) infinite normal;
 }
 

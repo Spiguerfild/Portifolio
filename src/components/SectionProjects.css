@@ -1,14 +1,10 @@
-
-#section-projects{
-
+#section-projects {
 }
 .container-projects {
   display: flex;
   justify-content: space-evenly;
-  
 }
 .card-project {
- 
   width: 23%;
   background: rgba(0, 0, 0, 0.274);
   border-bottom: 2px solid #910404;
@@ -37,19 +33,17 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
- 
 }
 
 /*efeitos*/
 .card-project:hover a {
   visibility: visible;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 .card-project a:hover {
   background-color: #580000;
   color: #c2c2c2;
   text-shadow: 0px 0px 3px #ffffff;
-  
 }
 .card-project h3 {
   color: rgb(255, 255, 255);
@@ -58,48 +52,53 @@
   padding-bottom: 10px;
 }
 .card-project:hover {
-  width: 30%;
-  height: 30rem
+  width: 35%;
+  height: 25rem;
+  position: relative;
 }
 .card-project img {
-  transition: 0.4s;
+  transition: 0.5s;
   width: 100%;
 }
 .card-project:hover img {
   width: 100%;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 /*icone do link*/
-.card-project a .icon-prj{
-  width: 23%;
-    height: 91%;
-
-transition: none;
+.card-project a .icon-prj {
+  width: 13%;
+  height: 80%;
+  transition: none;
 }
-.card-project a:hover .icon-prj{
+.card-project a:hover .icon-prj {
   filter: invert(1);
-  transition: .4s;
+  transition: 0.5s;
 }
-@media(max-width: 860px){
-  .card-project h3{
-  font-size:.9rem ;  
+@media (max-width: 860px) {
+  .card-project h3 {
+    font-size: 0.9rem;
   }
-  .card-project a{
-    font-size: .5rem;
+  .card-project a {
+    font-size: 0.5rem;
   }
   .card-project:hover {
     width: 30%;
     height: 15em;
   }
 }
-@media(max-width: 650px){
+@media (max-width: 650px) {
   .card-project:hover {
     width: 30%;
-    height: 10rem
+    height: 10rem;
   }
 }
-@media(max-width: 500px) {
-  .card-project h3{
-    font-size:.6rem ;  
-    }
+@media (max-width: 500px) {
+  .card-project h3 {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 380px) {
+  .card-project a{
+    font-size: 5px;
+  }
 }
