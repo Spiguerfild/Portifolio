@@ -20,6 +20,14 @@ function Contactme() {
                         <h3>Whatsapp: </h3>
                         <a href='https://api.whatsapp.com/send/?phone=44984342957&text&type=phone_number&app_absent=0' target="_blank" className='content'>Send me a message</a>
                     </div>
+                    <div className='infos'>
+                        <h3>Github: </h3>
+                        <a href='https://github.com/Spiguerfild' target="_blank" className='content'>Check my profile</a>
+                    </div>
+                    <div className='infos'>
+                        <h3>LinkedIn: </h3>
+                        <a href='https://github.com/Spiguerfild' target="_blank" className='content'>Check my profile</a>
+                    </div>
                   
 
                 </div>

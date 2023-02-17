@@ -37,6 +37,7 @@ text-shadow: 2px 2px 1px black,
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 100%;
 }
 .infos a{
     color: #910404;
