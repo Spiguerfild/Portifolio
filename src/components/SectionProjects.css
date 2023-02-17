@@ -88,4 +88,8 @@ transition: none;
   .card-project a{
     font-size: .5rem;
   }
+  .card-project:hover {
+    width: 30%;
+    height: 15em;
+  }
 }

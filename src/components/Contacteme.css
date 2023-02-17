@@ -13,13 +13,13 @@
 .chave h1{
     font-size: 15rem;
     font-weight: 100;
-    color: #520000;
+
 text-shadow: 2px 2px 1px black,
  1px 3px 15px #ca5400;
 }
 .center{
     padding: 91px 0 13px 0;
-    width: 40%;
+    width: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -76,4 +76,9 @@ text-shadow: 0px 0px 4px #eeeeee;
     text-align: center;
     font-size: 1rem;
     padding: 20px 0 0 0;
+}
+@media(max-width: 1000px)  {
+    .chave h1{
+font-size: 0;
+    }
 }
