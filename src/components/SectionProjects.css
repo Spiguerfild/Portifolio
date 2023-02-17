@@ -28,9 +28,9 @@
   color: #910404;
   background-color: #c2c2c2;
   border: 1px solid #580000;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;
-  width: 140px;
+  width: 38%;
   border-radius: 20px;
   visibility: hidden;
   text-decoration: none;
@@ -58,7 +58,7 @@
   padding-bottom: 10px;
 }
 .card-project:hover {
-  width: 20em;
+  width: 30%;
   height: 22em;
 }
 .card-project img {
@@ -66,17 +66,25 @@
   width: 100%;
 }
 .card-project:hover img {
-  width: 319px;
+  width: 100%;
   transition: 0.5s;
 }
 /*icone do link*/
 .card-project a .icon-prj{
-  width: 20px;
-  height: 20px;
+  width: 14%;
+  height: 81%;
 
 transition: none;
 }
 .card-project a:hover .icon-prj{
   filter: invert(1);
   transition: .5s;
+}
+@media(max-width: 860px){
+  .card-project h3{
+  font-size:.9rem ;  
+  }
+  .card-project a{
+    font-size: .5rem;
+  }
 }
